@@ -88,7 +88,7 @@ app.post("/bfhl", (req,res)=>{
 })
 
 app.get("/", (req,res)=>{
-    res.send("welcone to the api test");
+    res.send("welcome to the api test, POST on /bfhl to get response");
 })
 
 
